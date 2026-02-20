@@ -11,7 +11,7 @@ import pytest
 
 
 def test_Fixture(setup):
-    print("setup will run firstly")
+    print("setup will run first of all from other files.")
 
 @pytest.fixture(params=[("chrome","Shashank"),"edge"])
 def crossBrowser(request):
